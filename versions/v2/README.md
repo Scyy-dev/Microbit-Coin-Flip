@@ -15,7 +15,7 @@ if button_a.was_pressed():
 ### To Infinity!
 We ran into a problem - our image never shows! That's because the program runs once, checks if the button was pushed, and then stops.
 
-To fix this, we need the program to constantly check if the button has been pressed. The best way to do this is to checking checking forever!
+To fix this, we need the program to constantly check if the button has been pressed. The best way to do this is to keep checking forever!
 
 ```python
 while True:
